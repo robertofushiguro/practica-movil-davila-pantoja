@@ -1,0 +1,12 @@
+{
+  "name": "Practica Desarrollo Movil - Expo + SQLite",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "forwardPorts": [8081],
+  "portsAttributes": {
+    "8081": {
+      "label": "Vista previa de la app (Expo Web)",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "npm install"
+}
